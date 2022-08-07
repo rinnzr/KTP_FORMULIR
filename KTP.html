@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KTP</title>
+</head>
+<body>
+    <center><h1>FORMULIR PERMOHONAN KARTU TANDA PENDUDUK (KTP) WARGA NEGARA INDONESIA</h1></center>
+    <h4>Perhatian</h4>
+    <ol type="1">
+        <li>Harap diisi dengan huruf cetak dan menggunakan tinta hitam</li>
+        <li>Untuk kolom pilihan, harap memberi tanda silang(x) pada kotak pilihan</li>
+        <li>Setelah formulir ini diisi dan ditandatangani, garap diserahkan kembali ke Kantor Desa Kelurahan</li>
+    </ol>
+<form>
+    <tr>
+            <label for="pp"><b>PEMERINTAH PROVINSI :</b></label>
+            <input type="text" name="teks" value=""><br>
+        <br>
+            <label for="pk"><b>PEMERINTAH KABUPATEN/KOTA :</b></label>
+            <input type="text" name="teks" value=""><br>
+        <br>
+            <label for="k"><b>KECAMATAN :</b></label>
+            <input type="text" name="teks" value=""><br>
+        <br>
+            <label for="kd"><b>KELURAHAN/DESA :</b></label>
+        <input type="text" name="teks" value=""><br>
+        <br>
+            <label for="kd"><b><u>PERMOHONAN KTP:</u></b></label>
+            <input type="radio" name="pilih" value="A">A. Baru
+            <input type="radio" name="pilih" value="B">B. Perpanjangan
+            <input type="radio" name="pilih" value="C">C. Penggantian
+    </tr><br>
+    <tr>
+        <br><label for="name">Nama Lengkap :</label>
+        <input type="text" name="nama" value=""><br>
+        <br><label for="jk">Jenis Kelamin :</label>
+        <select name="jk">
+            <option value=""></option>
+            <option value="RPL">Perempuan</option>
+            <option value="TKJ">Laki laki</option>
+            </select><br>
+        <br><label for="name">No KK :</label><br>
+        <input type="text" name="kk" value=""><br>
+        <br><label for="nik">No NIK :</label><br>
+        <input type="text" name="nik" value=""><br>
+        <br><label for="alamat">Alamat lengkap :</label><br>
+        <td><textarea name="alamat" rows="5" cols="30"placeholder="Alamat Lengkap">
+               </textarea></td><br>
+        <br><label for="foto">Foto (2x3) :</label><br>
+        <br><td><input type="file" name="file" value=""></td>
+    </tr> 
+        <p><input type="submit" name="submit" value="Submit" style="background-color: red;color: white;"></p>
+    </tr>
+</form>
+</body>
+</html>
